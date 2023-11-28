@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .area{
+    display: flex;
+  }
+  .Header{
+    flex-direction: colomn;
+    flex-grow: 3;
+  }
+  nav {
+   flex-grow: 1;
+   background-color:pink;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header{
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  footer{
+    height: 20vh;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content{
+    display: flex;
+    height: 60vh;
+  }
+  article{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  aside{
+    flex-grow: 1;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
